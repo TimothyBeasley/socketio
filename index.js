@@ -13,7 +13,10 @@ io.on('connection',function(socket){
     console.log('ok')
     socket.on('chat message',function(msg){
     io.emit('chat message',msg);
+<<<<<<< HEAD
     console.log(msg)
+=======
+>>>>>>> 2fa33a3c5c9ae2a977197ea73d62b1de05108199
     });
 });
 http.listen(3000,function(){
