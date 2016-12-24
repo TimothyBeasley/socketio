@@ -1,0 +1,29 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timothy Beasley",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothybeasley/your-first-node-package.git"
+  },
+  "keywords": [
+    "chat",
+    "socketio",
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/timothybeasley/your-first-node-package/issues"
+  },
+  "homepage": "https://github.com/timothybeasley/your-first-node-package#readme"
+}
